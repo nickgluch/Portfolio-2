@@ -1,0 +1,103 @@
+/* body {
+  background-color: white;
+  color: rgba(26, 12, 12, 0.8);
+}
+.fadein {
+  opacity: 0;
+  -moz-transition: opacity 1.5s;
+  -webkit-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+} */
+#textBox {
+margin:auto;
+    background:rgba(235, 64, 12, 0.884);
+    border-color:gray;
+    width:500px;
+    height:400px;;
+    padding:50px;
+    color:rgb(226, 215, 215);
+}
+body {
+  opacity: 1;
+  transition: 1s opacity;
+}
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+body{
+	height: 100vh
+	display: flex
+	justify-content: center
+	align-items: center
+  background: #e1cbff
+}
+#hiddenBody{
+  background: #ff6347
+	width: 300px
+	height: 200px
+	color: white
+	border-radius: 50px
+}
+/* body.loaded .fadein {
+  opacity: 1;
+} */
+/* body.loaded .fadein {
+  opacity: 1;
+}
+body.loaded {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  box-shadow: 0 0 9.8px 0.2px rgba(0, 0, 0, 0.14);
+} */
+
+/* #hiddenBody {
+  position: absolute;
+  bottom: 160px;
+  left: 42.25%;
+  opacity: 0;
+
+  animation-name: opacityOn;
+  animation-duration: 100ms;
+  animation-delay: 13.7s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+
+  animation-name: opacityOff;
+  animation-duration: 100ms;
+  animation-delay: 17.7s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+@keyframes opacityOn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacityOff {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+/* html,
+body {
+  margin: 0px;
+  padding: 0px;
+} */
+
+/* body {
+  background-image: url(../images/intersection.png);
+} */
+h2 {
+  color: #4aaaa5;
+  font-size: 200%;
+}
